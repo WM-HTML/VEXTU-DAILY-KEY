@@ -16,7 +16,7 @@ $dailyKey = "KEY-VXT-" . $keyPart;
 
 // Generar link único diario
 $randomNum = ($seed * 12345) % 10000;
-$dailyLink = "https://vextudaylikey.netlify.app/key/$randomNum?k=$dailyKey"; // Cambia tu dominio aquí
+$dailyLink = "https://wm-html.github.io/VEXTU-DAILY-KEY/key/$randomNum?k=$dailyKey"; // Cambia tu dominio aquí
 
 // Redirigir al link diario
 header("Location: $dailyLink");
